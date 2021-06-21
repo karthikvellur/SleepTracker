@@ -14,5 +14,9 @@ class SleepNightAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
         val item = data[position]
         holder.textView.text = item.sleepQuality.toString()
     }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextItemViewHolder {
+        TODO("Not yet implemented")
+    }
 }
 
